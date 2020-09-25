@@ -196,8 +196,6 @@ app.listen(3000, () => {
     console.log("Server started at port 3000");
 })
 function getUserById(cUid) {
-
-
     let userArr = userDB.filter((user) => {
         return user.uid == cUid;
     });
